@@ -9,7 +9,7 @@
 # ```bash
 # python lerobot/scripts/train.py \
 #   policy=act_stompy_real \
-#   env=koch_stompy
+#   env=stompy
 # ```
 
 seed: 1000
