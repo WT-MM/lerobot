@@ -1,0 +1,15 @@
+# @package _global_
+
+fps: 25
+
+wandb:
+  enable: true
+
+env:
+  name: stompy
+  task: StompyPush-v0
+  state_dim: 6
+  action_dim: 7
+  fps: ${fps}
+  gym:
+    fps: ${fps}
